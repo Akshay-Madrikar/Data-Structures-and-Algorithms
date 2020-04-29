@@ -9,4 +9,4 @@ const findNemo = ( arr ) => {
     console.log('Time taken : ' +  (t1-t0));
 };
 
-findNemo(nemo);
+findNemo(nemo); 
