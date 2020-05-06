@@ -1,4 +1,4 @@
-const moveZeros = (arr) => {
+const moveZerosToEnd = (arr) => {
     
     if(arr.length === 0 || arr === null) {
         return 0;
@@ -36,5 +36,5 @@ const moveZeros = (arr) => {
 
 }
 
-console.log(moveZeros([0,1,0,3,12])); //[1, 3, 12, 0, 0]
-console.log(moveZeros([0,5,8,0,20,12])); //[5, 8 ,20, 12, 0, 0]
+console.log(moveZerosToEnd([0,1,0,3,12])); //[1, 3, 12, 0, 0]
+console.log(moveZerosToEnd([0,5,8,0,20,12])); //[5, 8 ,20, 12, 0, 0]
