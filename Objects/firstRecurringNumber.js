@@ -6,6 +6,7 @@ const recur = (arr) => {
             return arr[i];
         } else {
             map[arr[i]] = i;
+            console.log(map)
         }
     }
     return undefined;
