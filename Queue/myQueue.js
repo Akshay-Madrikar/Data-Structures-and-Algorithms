@@ -51,5 +51,5 @@ queue.enqueue(30);
 queue.dequeue();
 queue.enqueue(40);
 queue.peek();
-console.log(queue)
+console.log(queue);
 
