@@ -30,8 +30,12 @@ class myQueue {
     }
 
     dequeue() {
-        if( this.first === this.last ) {
+
+        if( !this.first ) {
             return null;
+        }
+        if( this.first === this.last ) {
+            this.last = null;
         }
 
         const holdingPointer = this.first;
